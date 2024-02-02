@@ -1,9 +1,10 @@
 name: Meu primeiro site de teste
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - develop
+      - test
 
 jobs:
   deploy:
